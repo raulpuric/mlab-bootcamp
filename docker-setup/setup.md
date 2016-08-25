@@ -3,7 +3,7 @@
 ## Docker Setup
 Download Docker Toolbox at https://www.docker.com/products/docker-toolbox.
 
-Follow instructions at:
+Follow instructions at: <br />
 Mac OSX - https://docs.docker.com/toolbox/toolbox_install_mac/ <br />
 Windows - https://docs.docker.com/toolbox/toolbox_install_windows/
 
