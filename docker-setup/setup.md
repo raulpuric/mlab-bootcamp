@@ -4,7 +4,7 @@
 Download Docker Toolbox at https://www.docker.com/products/docker-toolbox.
 
 Follow instructions at:
-Mac OSX - https://docs.docker.com/toolbox/toolbox_install_mac/
+Mac OSX - https://docs.docker.com/toolbox/toolbox_install_mac/ <br />
 Windows - https://docs.docker.com/toolbox/toolbox_install_windows/
 
 ## IPython Setup
