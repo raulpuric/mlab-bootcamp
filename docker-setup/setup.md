@@ -30,11 +30,33 @@ Windows - https://docs.docker.com/toolbox/toolbox_install_windows/
 7. Go to your default browser and type "https://{VM_host_id}:8888"
 8. Enjoy Jupyter Notebook!
 
-## Get Assignmetns 
+## Get Assignments 
 1. Open "New > Terminal" within your IPython browser
 2. Clone the ml-b-bootcamp repository for assignments <br />
   ```
     git clone https://github.com/jpark96/ml-b-bootcamp.git
   ```
+3. Download mlxtend <br />
+  ```
+    pip install mlxtend
+  ```
 3. Change directories to "ml-b-bootcamp/assignments"
 4. Open the assignment!
+
+## Saving docker image
+You will lose all changes within your Docker container/VM if you do not commit your code to the Docker Engine. In order to prevent this, do: <br />
+1. Find name of your running container
+  ```
+    docker ps
+  ```
+2. Save this container as an image
+  ```
+    docker commit <container_name> <desired_image_name>
+  ```
+Later, when you want to load the image, run: <br />
+```
+  docker run -d -p 8888:8888 <image_name> start-notebook.sh
+```
+
+Additional Resources:
+1. Docker Containers: https://docs.docker.com/v1.10/engine/userguide/containers/dockerrepos/
