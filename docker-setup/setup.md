@@ -45,11 +45,11 @@ Windows - https://docs.docker.com/toolbox/toolbox_install_windows/
 
 ## Saving docker image
 You will lose all changes within your Docker container/VM if you do not commit your code to the Docker Engine. In order to prevent this, do: <br />
-1. Find name of your running container
+1. Find name of your running container: <br />
   ```
     docker ps
   ```
-2. Save this container as an image
+2. Save this container as an image <br />
   ```
     docker commit <container_name> <desired_image_name>
   ```
@@ -58,5 +58,5 @@ Later, when you want to load the image, run: <br />
   docker run -d -p 8888:8888 <image_name> start-notebook.sh
 ```
 
-Additional Resources:
+Additional Resources: <br />
 1. Docker Containers: https://docs.docker.com/v1.10/engine/userguide/containers/dockerrepos/
