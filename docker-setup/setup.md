@@ -49,10 +49,11 @@ You will lose all changes within your Docker container/VM if you do not commit y
   ```
     docker ps
   ```
-2. Save this container as an image <br />
+2. Save this container as an image: <br />
   ```
     docker commit <container_name> <desired_image_name>
   ```
+
 Later, when you want to load the image, run: <br />
 ```
   docker run -d -p 8888:8888 <image_name> start-notebook.sh
