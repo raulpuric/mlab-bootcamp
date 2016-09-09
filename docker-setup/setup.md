@@ -20,7 +20,7 @@ Windows - https://docs.docker.com/toolbox/toolbox_install_windows/
   ```
 4. Set up Docker container with needed resources (NumPy, SciPy, Pandas): <br />
   ```
-    docker -d -p 8888:8888 jupyter/datascience-notebook start-notebook.sh
+    docker run -d -p 8888:8888 jupyter/datascience-notebook start-notebook.sh
   ```
 5. Check your "DOCKER_HOST"  with "docker-machine env default"
 6. Set your environment variables <br />
