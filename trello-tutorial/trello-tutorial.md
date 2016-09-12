@@ -18,6 +18,7 @@ Task 1
 10. Add your screenshot to "trello-tutorial/screenshots/{first_last_name}" and push your changes
 
 ![](img/jin_park.png)
+
 Tips of using Trello/Github
 ====
 Your project will consist of tasks that are completed with several commits. Your commits will be housed in github and your tasks will be housed in Trello. Coordinating these two resources well will save you much time in communication with your project manager and peers. Common mistakes are:
